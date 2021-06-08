@@ -3,16 +3,48 @@
   <head>
     <title>Musical Keys</title>
     <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
   </head>
   <body>
+    <!--------------------- AUDIO SOURCE FILES  ---------------------->
+
+    <!-- used from: https://mixkit.co/free-sound-effects/ -->
+    <audio src="/audio/drum.mp3" id="drum"></audio>
+    <audio src="/audio/drum2.mp3" id="drum2"></audio>
+    <audio src="/audio/drum3.mp3" id="drum3"></audio>
+    <audio src="/audio/drum4.mp3" id="drum4"></audio>
+    <audio src="/audio/flute.mp3" id="flute"></audio>
+    <audio src="/audio/chime.mp3" id="chime"></audio>
+    <audio src="/audio/whistle.mp3" id="whistle"></audio>
+    <audio src="/audio/bell.mp3" id="bell"></audio>
+    <audio src="/audio/swipe.mp3" id="swipe"></audio>
+    <audio src="/audio/scratch.mp3" id="scratch"></audio>
+    <audio src="/audio/guitar-electric.mp3" id="guitar-electric"></audio>
+    <audio src="/audio/guitar-happy.mp3" id="guitar-happy"></audio>
+    <audio src="/audio/guitar-negative.mp3" id="guitar-negative"></audio>
+    <audio src="/audio/horn.mp3" id="horn"></audio>
+    <audio src="/audio/tap.mp3" id="tap"></audio>
+    <audio src="/audio/violin.mp3" id="violin"></audio>
+    <audio src="/audio/space.mp3" id="space"></audio>
+    <audio src="/audio/toaster.mp3" id="toaster"></audio>
+    <audio src="/audio/bubbles.mp3" id="bubbles"></audio>
+    <audio src="/audio/chalk.mp3" id="chalk"></audio>
+    <audio src="/audio/trumpet.mp3" id="trumpet"></audio>
+    <audio src="/audio/soap.mp3" id="soap"></audio>
+    <audio src="/audio/saber.mp3" id="saber"></audio>
+    <audio src="/audio/pen.mp3" id="pen"></audio>
+    <audio src="/audio/zap.mp3" id="zap"></audio>
+    <audio src="/audio/buzz.mp3" id="buzz"></audio>
+
+    <!--------------------------------------------->
     <div id="header_parent">
       <span id="header">PRESS A KEY</span>
     </div>
-    <!------------- FLEXBOX FOR KEYS ----------->
+    <!--------------------- FLEXBOX FOR KEYS  ---------------------->
     <div id="flex-container">
-      <div class="flex-items row1">Q</div>
+      <div class="flex-items row1 btn1">Q</div>
       <!---->
-      <div class="flex-items row1">W</div>
+      <div class="flex-items row1 btn2">W</div>
       <!---->
       <div class="flex-items row1">E</div>
       <!---->
@@ -64,5 +96,6 @@
 
       <!------------------------------------->
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
