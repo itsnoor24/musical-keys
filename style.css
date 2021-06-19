@@ -30,7 +30,6 @@ html {
 
 .flex-items {
   flex-shrink: 0;
-
   margin: 1%;
   color: #676aa1;
   /*--------*/
@@ -52,11 +51,16 @@ html {
 }
 
 .row2 {
-  width: 8.6%;
+  width: 8.4%;
 }
 
 .row3 {
   width: 8.6%;
+}
+
+.pressed {
+  animation-name: key-pressed;
+  animation-duration: 0.3s;
 }
 
 @keyframes color-change {
@@ -73,5 +77,45 @@ html {
   100% {
     background-color: rgba(255, 255, 255, 0.25);
     color: #676aa1;
+  }
+}
+
+@keyframes key-pressed {
+  0% {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  50% {
+    background-color: rgba(71, 70, 70, 0.25);
+  }
+
+  100% {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #flex-container {
+    margin-bottom: 22%;
+  }
+
+  #header_parent {
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+
+  .row1 {
+    width: 20%;
+  }
+
+  .row2 {
+    width: 20%;
+  }
+
+  .row3 {
+    width: 20%;
+  }
+
+  html {
+    font-size: 600%;
   }
 }
