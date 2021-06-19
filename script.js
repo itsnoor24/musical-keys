@@ -32,7 +32,7 @@ function keyFeedback(elementID, isFirstClick) {
   if (isFirstClick == true) {
     elementID.style.transition = "border 0.05s linear 0s";
     elementID.style.borderColor = "rgba(103, 106, 161, 0.8)";
-    elementID.style.borderWidth = "medium";
+    elementID.style.borderWidth = "thick";
   } else {
     elementID.style.transition = "border 0.05s linear 0s";
     elementID.style.borderColor = "rgba(255, 255, 255, 0.18)";
